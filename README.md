@@ -17,7 +17,8 @@ https://underscores.me/
 - https://generatewp.com/
 - https://kinsta.com/blog/wordpress-page-builders/
 - https://www.businessbloomer.com/
-- 
+- https://wordpress.org/plugins/code-snippets/
+- https://wordpress.org/plugins/query-monitor/
 
 ### Top Plugin
 - [ACF](https://www.advancedcustomfields.com/)
