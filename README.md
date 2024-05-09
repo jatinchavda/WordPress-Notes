@@ -19,6 +19,7 @@ https://underscores.me/
 - https://www.businessbloomer.com/
 - https://wordpress.org/plugins/code-snippets/
 - https://wordpress.org/plugins/query-monitor/
+- https://www.infophilic.com/wordpress-performance-speed/
 
 ### Top Plugin
 - [ACF](https://www.advancedcustomfields.com/)
