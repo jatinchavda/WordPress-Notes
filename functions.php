@@ -5,6 +5,9 @@
 // Generic : www.example.com/child/parent_post/child_post
 // https://stackoverflow.com/questions/52144868/how-to-set-permalink-to-fetch-all-children-custom-posts-with-parent-post-in-word
 
+// Add Custom Fields to a Taxonomy
+// https://rudrastyh.com/wordpress/add-custom-fields-to-taxonomy-terms.html
+
 // Taxonomy Pagination generate rules
 function generate_taxonomy_rewrite_rules( $wp_rewrite ) {
     $rules = array();
