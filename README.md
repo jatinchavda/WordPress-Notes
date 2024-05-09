@@ -7,8 +7,9 @@ https://wp-cli.org/
 https://childtheme-generator.com/
 
 ### How to Create Plugin Basic
-https://developer.wordpress.org/plugins/plugin-basics/
-https://www.wpbeginner.com/wp-tutorials/how-to-create-a-wordpress-plugin/
+- https://developer.wordpress.org/plugins/plugin-basics/
+- https://www.wpbeginner.com/wp-tutorials/how-to-create-a-wordpress-plugin/
+- https://learn.wordpress.org/tutorial/custom-database-tables/ OR https://deliciousbrains.com/creating-custom-table-php-wordpress/
 
 ### Create NULL THEME via Underscore
 https://underscores.me/
