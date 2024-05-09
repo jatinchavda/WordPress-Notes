@@ -1,4 +1,9 @@
 <?php
+// All Types of Rules define
+// https://pastebin.com/jbaDANYr
+
+// Generic : www.example.com/child/parent_post/child_post
+// https://stackoverflow.com/questions/52144868/how-to-set-permalink-to-fetch-all-children-custom-posts-with-parent-post-in-word
 
 // Taxonomy Pagination generate rules
 function generate_taxonomy_rewrite_rules( $wp_rewrite ) {
@@ -24,5 +29,3 @@ function generate_taxonomy_rewrite_rules( $wp_rewrite ) {
 }
 add_action('generate_rewrite_rules', 'generate_taxonomy_rewrite_rules');
 
-// Generic : www.example.com/child/parent_post/child_post
-// https://stackoverflow.com/questions/52144868/how-to-set-permalink-to-fetch-all-children-custom-posts-with-parent-post-in-word
