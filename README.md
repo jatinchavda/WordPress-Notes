@@ -22,5 +22,5 @@ https://generatewp.com/
 - [Contact Form 7](https://wordpress.org/plugins/contact-form-7/)
 
 ### WP Demo
-https://instawp.com/ OR wp.new
-https://tastewp.com/
+- https://instawp.com/ OR wp.new
+- https://tastewp.com/
