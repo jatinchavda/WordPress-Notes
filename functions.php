@@ -23,3 +23,6 @@ function generate_taxonomy_rewrite_rules( $wp_rewrite ) {
     $wp_rewrite->rules = $rules + $wp_rewrite->rules;
 }
 add_action('generate_rewrite_rules', 'generate_taxonomy_rewrite_rules');
+
+// Generic : www.example.com/child/parent_post/child_post
+// https://stackoverflow.com/questions/52144868/how-to-set-permalink-to-fetch-all-children-custom-posts-with-parent-post-in-word
