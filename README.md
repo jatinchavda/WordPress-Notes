@@ -30,6 +30,8 @@ https://underscores.me/
   - [Woo Email Customizer](https://wordpress.org/plugins/decorator-woocommerce-email-customizer/)
 - [Contact Form 7](https://wordpress.org/plugins/contact-form-7/)
   - https://contactform7.com/2015/01/10/adding-a-custom-form-tag/
+- [Users/Customers Import Export Plugin](https://wordpress.org/plugins/users-customers-import-export-for-wp-woocommerce/) | [Import and export users and customers
+](https://wordpress.org/plugins/import-users-from-csv-with-meta/)
 
 ### Multi Language Setup
 - https://www.youtube.com/watch?v=YpFdmzWCFRc
