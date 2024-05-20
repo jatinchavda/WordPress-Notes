@@ -32,3 +32,29 @@ function generate_taxonomy_rewrite_rules( $wp_rewrite ) {
 }
 add_action('generate_rewrite_rules', 'generate_taxonomy_rewrite_rules');
 
+// https://wordpress.org/plugins/custom-fonts/
+// Custom Fonts Supported in Redux Frameworks
+if ( !function_exists("tmpcoder_theme_custom_fonts") ){
+  function tmpcoder_theme_custom_fonts( $custom_fonts ) {
+    if ( class_exists('Bsf_Custom_Fonts_Render') ){
+      if ( method_exists('Bsf_Custom_Fonts_Render', 'get_existing_font_posts') ){
+        $custom_fonts = new Bsf_Custom_Fonts_Render();
+        $all_fonts = $custom_fonts->get_existing_font_posts();
+
+        if ( ! empty( $all_fonts ) ) {
+          foreach ( $all_fonts as $key => $post_id ) {
+            $font_data = get_post_meta( $post_id, 'fonts-data', true );
+            $font_type = get_post_meta( $post_id, 'font-type', true );
+            if ( 'google' !== $font_type ) {
+              $fonts[ $font_data['font_name'] ] = $font_data['font_name'];
+            }
+          }
+          return array(
+            'Custom Fonts' => $fonts
+          );
+        }
+      }
+    }
+  }
+  add_filter( 'redux/tmpcoder_pizzon/field/typography/custom_fonts', 'tmpcoder_theme_custom_fonts' );
+}
