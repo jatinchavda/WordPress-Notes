@@ -16,11 +16,13 @@ https://underscores.me/
 
 ### Top WP Tools
 - https://generatewp.com/
+- https://wpturbo.dev/
 - https://kinsta.com/blog/wordpress-page-builders/
 - https://www.businessbloomer.com/
 - https://wordpress.org/plugins/code-snippets/
 - https://wordpress.org/plugins/query-monitor/
 - https://www.infophilic.com/wordpress-performance-speed/
+- https://cmsminds.com/blog/wordpress-development-tools/
 
 ### Top Plugin
 - [ACF](https://www.advancedcustomfields.com/)
