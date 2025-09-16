@@ -23,6 +23,9 @@ https://underscores.me/
 - https://wordpress.org/plugins/query-monitor/
 - https://www.infophilic.com/wordpress-performance-speed/
 - https://cmsminds.com/blog/wordpress-development-tools/
+- https://productiveshop.com/why-and-how-to-use-github-for-wordpress-development/#how-to-establish-a-code-review-practice
+- https://github.com/miziomon/awesome-wordpress
+- https://github.com/lukecav/awesome-wp-developer-tools
 
 ### Top Plugin
 - [ACF](https://www.advancedcustomfields.com/)
